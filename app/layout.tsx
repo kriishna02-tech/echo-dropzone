@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Echo Dropzone — 3D Co-op Arena",
-  description: "Team up, clear three evolving 3D arenas, unlock new blasters and build your squad advantage.",
+  title: "Signal Saboteurs — Multiplayer Mystery",
+  description: "A live social-deduction game for 4–8 players. Repair the station, uncover the hidden Glitch, and survive the vote.",
   other: {
     "codex-preview": "development",
   },

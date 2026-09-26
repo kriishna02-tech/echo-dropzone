@@ -1,25 +1,25 @@
-# Echo Dropzone
+# Signal Saboteurs
 
-Echo Dropzone is a browser-based 3D co-op arena game for 2–4 players. Create a squad, share the six-character room code, and clear three evolving arenas together.
+Signal Saboteurs is an original browser-based social-deduction game for 4–8 players. Operators restore a mysterious research station while hidden Glitches fake tasks, disrupt progress, and quietly remove players from the investigation.
 
 ## Play
 
 [Launch the live game](https://echo-dropzone-arena.kriishna002.chatgpt.site)
 
-## Features
+## Rules
 
-- Real-time multiplayer rooms with no player login
-- Three distinct 3D levels: container yard, coastal airstrip, and wildland relay
-- Four unlockable blasters and three tactical perks
-- Shared objectives, synchronized scores, upgrades, replay, and persistent leaderboard
-- Keyboard, mouse, and touch controls
-- Custom graphics quality, control size, left-handed mode, compact HUD, and reduced camera motion
+- Operators win by completing all eight station tasks or quarantining every Glitch.
+- Glitches win when they equal the number of active Operators.
+- Any active player can call an emergency meeting.
+- Meetings end after every active player votes; a tie means nobody is quarantined.
+- Quarantined players remain in the room as spectators.
 
 ## Controls
 
-- Move: `WASD`, arrow keys, or the on-screen directional pad
-- Aim: drag the arena to rotate the camera
-- Fire: click/tap a glowing drone, press `Space`, or use the FIRE button
+- Move with `WASD`, arrow keys, or the on-screen movement pad.
+- Walk near a glowing terminal and select **Use** to complete it.
+- Call **Meeting** when someone behaves suspiciously.
+- Glitches receive private **Desync** and **Disrupt** actions.
 
 ## Local development
 
@@ -28,8 +28,4 @@ pnpm install
 pnpm dev
 ```
 
-Open the local address shown in the terminal. Test multiplayer with two separate browser profiles or devices.
-
-## Stack
-
-Next.js-compatible Vinext app, React, TypeScript, Three.js, Tailwind CSS, and a server-backed database for rooms, matches, and scores.
+Built with React, TypeScript, Vinext, Tailwind CSS, and a D1-compatible database for synchronized rooms and matches.
